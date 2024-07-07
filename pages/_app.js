@@ -65,7 +65,7 @@ const MyApp = ({ Component, pageProps }) => (
       <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
       <link rel="preconnect" href="https://stijndv.com" />
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
-  </Head>
+   </Head>
     <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="90">
       <script
         type="text/javascript"
@@ -97,7 +97,7 @@ const MyApp = ({ Component, pageProps }) => (
               n.async = !0, n.src = "https://sibautomation.com/sa.js?key=" + window.sib.client_key,
               i.parentNode.insertBefore(n, i), window.sendinblue.page();
             })();
-          `
+          `,
         }}
       />
       <Component {...pageProps} />
