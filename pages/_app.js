@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => (
@@ -67,7 +66,17 @@ const MyApp = ({ Component, pageProps }) => (
       <link rel="preconnect" href="https://stijndv.com" />
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-72PC6FML97"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-72PC6FML97');
+      </script>
     </Head>
     <Component {...pageProps} />
   </>
 );
+
+export default MyApp;
