@@ -17,14 +17,6 @@ const Navbar = () => (
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
         VEGAMEDIA
       </h2>
-      <a
-        href="https://github.com/sanidhyy/metaversus"
-        target="_blank"
-        rel="noreferrer noopener"
-        title="Source Code"
-      >
-        <img src="/github.svg" alt="GitHub" className="w-[24px] h-[24px] object-contain" />
-      </a>
     </div>
   </motion.nav>
 );
