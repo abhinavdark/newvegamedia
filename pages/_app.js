@@ -45,27 +45,6 @@ const MyApp = ({ Component, pageProps }) => (
 	<link rel="stylesheet" href="./assets/css/style.min.css">
 	 <script type="application/ld+json">
 
- {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Vega Media",
-      "url": "https://www.vegamedia.online",
-      "logo": "https://www.vegamedia.online/logo.png",
-      "sameAs": [
-        "https://www.facebook.com/vegamedia.online",
-        "https://instagram.com/vegamedia.online",
-        
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "contact@vegamedia.online"
-      }
-   
-		 }
-  </script>
-
-
-      <meta name="author" content="vegamedia" />
       <link rel="preconnect" href="https://stijndv.com" />
       <link
         rel="stylesheet"
