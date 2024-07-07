@@ -8,7 +8,7 @@ const Head = () => (
       name="description"
       content="The Next Generation Metaverse App using React JS"
     />
-    <meta name="author" content="Sanidhya Kr. Verma" />
+    <meta name="author" content="Vegamedia" />
     <link rel="icon" href="/favicon.ico" />
   </>
 );
