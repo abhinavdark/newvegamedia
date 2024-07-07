@@ -2,34 +2,34 @@ export const exploreWorlds = [
   {
     id: "world-1",
     imgUrl: "/planet-01.png",
-    title: "The Hogwarts",
+    title: "Social Media Mangaement",
   },
   {
     id: "world-2",
     imgUrl: "/planet-02.png",
-    title: "The Upside Down",
+    title: "Instagram Marketing",
   },
   {
     id: "world-3",
     imgUrl: "/planet-03.png",
-    title: "Kadirojo Permai",
+    title: "SEO",
   },
   {
     id: "world-4",
     imgUrl: "/planet-04.png",
-    title: "Paradise Island",
+    title: "Website Developement",
   },
   {
     id: "world-5",
     imgUrl: "/planet-05.png",
-    title: "Hawkins Labs",
+    title: "Email Marketing",
   },
 ];
 
 export const startingFeatures = [
   "Find a world that suits you and you want to enter",
-  "Enter the world by reading basmalah to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
+  "Enter the world ",
+  "Take  your  company  to the  next  level  ",
 ];
 
 export const newFeatures = [
@@ -50,43 +50,35 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: "/planet-06.png",
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+    title: "5 Tips to Improve Your Private Jet Chartering Agency",
     subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+      "As a private jet charter business, you understand the importance of standing out in a competitive market. ",
+   url :"https://blogs.vegamedia.online/post.html"
   },
   {
     imgUrl: "/planet-07.png",
-    title: "7 tips to easily master the madness of the Metaverse",
-    subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+    title: "The Rise of Luxury Real Estate: Trends and Opportunities make it longer",
+    subtitle:"The luxury real estate market has been experiencing a surge in demand, driven by various factors. In this blog post",
+    url :"https://blogs.vegamedia.online/post2.html"
   },
   {
     imgUrl: "/planet-08.png",
-    title: "With one platform you can explore the whole world virtually",
+    title: "Building a Thriving Winery: 5 Essential Tips for Success",
     subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+      "Creating a successful winery requires careful planning, attention to detail, and a deep un..",
+    url :"https://blogs.vegamedia.online/post3.html"
   },
 ];
 
 export const socials = [
   {
-    name: "Twitter",
-    icon: "/twitter.svg",
-    url: "https://www.twitter.com",
-  },
-  {
-    name: "Linkedin",
-    icon: "/linkedin.svg",
-    url: "https://www.linkedin.com",
-  },
-  {
     name: "Instagram",
     icon: "/instagram.svg",
-    url: "https://www.instagram.com",
+    url: "https://www.instagram.com/vegamedia.online/",
   },
   {
     name: "Facebook",
     icon: "/facebook.svg",
-    url: "https://www.facebook.com",
+    url: "https://www.facebook.com/vegamedia.online",
   },
 ];
