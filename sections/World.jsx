@@ -19,8 +19,7 @@ const World = () => (
       <TitleText
         title={
           <>
-            Track friends around you and invite them to play together in the
-            same world
+            Connecting Brands with Global Audiences: Your Digital Marketing Partner for Worldwide Success
           </>
         }
         textStyles="text-center"
