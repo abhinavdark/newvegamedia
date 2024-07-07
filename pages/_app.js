@@ -1,5 +1,4 @@
 import Head from "next/head";
-
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => (
@@ -66,6 +65,22 @@ const MyApp = ({ Component, pageProps }) => (
       <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
       <link rel="preconnect" href="https://stijndv.com" />
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
+
+      {/* Google Analytics script */}
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-72PC6FML97');
+          `,
+        }}
+      />
     </Head>
     <Component {...pageProps} />
   </>
