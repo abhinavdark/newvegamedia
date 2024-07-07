@@ -26,9 +26,9 @@ const About = () => (
 As a full-service digital marketing agency, we offer a wide range of services tailored to meet the unique needs of our clients.
 {" "}
         <span className="font-extrabold text-white">
-          madness of the metaverse
+         
         </span>{" "}
-        of today, using only{" "}
+        {" "}
         <span className="font-extrabold text-white"></span> {" "}
         <span className="font-extrabold text-white">explore</span> the madness
         of the digital marketing by scrolling down
