@@ -18,12 +18,13 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter your  digital  marketing joutney
+          Enter you  digital marketing journey 
         </h4>
 
         <button
           type="button"
           className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
+          onClick={() => window.open('https://calendly.com/vegamediain/30min', '_blank')}
         >
           <img
             src="/headset.svg"
@@ -31,9 +32,8 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white text-uppercase">
-            Let's Talk
+            Let's talk
           </span>
-           <a href="https://calendly.com/vegamediain/30min target"> </a>
         </button>
       </div>
 
@@ -45,7 +45,7 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright &copy; {new Date().getFullYear()} -{" "}
             {new Date().getFullYear() + 1}{" "}
-            <span className="font-extrabold">vegamedia</span>. All Rights
+            <span className="font-extrabold">Vegamedia</span>. All Rights
             Reserved.
           </p>
 
