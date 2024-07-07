@@ -33,7 +33,7 @@ const Footer = () => (
           <span className="font-normal text-[16px] text-white text-uppercase">
             Let's Talk
           </span>
-           <a href="https://calendly.com/vegamediain/30min target">
+           <a href="https://calendly.com/vegamediain/30min target"> </a>
         </button>
       </div>
 
