@@ -22,7 +22,7 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">At</span>At VegaMedia, we are passionate about helping businesses thrive in the digital landscape. 
+        <span className="font-extrabold text-white">At</span>VegaMedia, we are passionate about helping businesses thrive in the digital landscape. 
 As a full-service digital marketing agency, we offer a wide range of services tailored to meet the unique needs of our clients.
 {" "}
         <span className="font-extrabold text-white">
