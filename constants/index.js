@@ -34,16 +34,16 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
+    
+    title: "Content Creation",
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      "We produce high-quality, engaging content that resonates with your target audience, from blog posts and social media updates to videos",
   },
   {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
+    
+    title: "Analytics and Reporting",
     subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+      "We track and analyze the performance of your digital marketing campaigns, providing you with valuable insights to optimize your strategy and measure your return on investmen",
   },
 ];
 
