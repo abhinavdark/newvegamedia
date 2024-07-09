@@ -17,8 +17,7 @@ const Navbar = () => (
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
         VEGAMEDIA
       </h2>
-    </div>
-<button
+         <button
           type="button"
           className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
           onClick={() => window.open("https://calendly.com/vegamediain/30min", "_blank")}
@@ -32,6 +31,8 @@ const Navbar = () => (
             Let's talk
           </span>
         </button>
+    </div>
+
   </motion.nav>
 );
 
