@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world ",
-  "Take  your  company  to the  next  level  ",
+  "Explore Worlds Perfectly Aligned with Your Vision",
+  "Enter your  digital  Journey ",
+  "Soar to New Heights with Our Proven Strategies  ",
 ];
 
 export const newFeatures = [
