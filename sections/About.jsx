@@ -41,20 +41,7 @@ As a full-service digital marketing agency, we offer a wide range of services ta
         className="w-[18px] h-[28px] object-contain mt-[28px]"
       />
     </motion.div>
-<button
-          type="button"
-          className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
-          onClick={() => window.open("https://calendly.com/vegamediain/30min", "_blank")}
-        >
-          <img
-            src="/headset.svg"
-            alt="Headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white text-uppercase">
-            Let's talk
-          </span>
-        </button>
+
   </section>
 );
 
