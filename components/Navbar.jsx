@@ -18,6 +18,20 @@ const Navbar = () => (
         VEGAMEDIA
       </h2>
     </div>
+<button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]"
+          onClick={() => window.open("https://calendly.com/vegamediain/30min", "_blank")}
+        >
+          <img
+            src="/headset.svg"
+            alt="Headset"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[16px] text-white text-uppercase">
+            Let's talk
+          </span>
+        </button>
   </motion.nav>
 );
 
