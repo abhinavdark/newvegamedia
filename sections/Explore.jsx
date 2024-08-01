@@ -24,7 +24,7 @@ const Explore = () => {
         <TitleText
           title={
             <>
-              Choose the world you want <br className="md:block hidden" /> to
+              Choose the Digital Landscape <br className="md:block hidden" /> to
               explore
             </>
           }
