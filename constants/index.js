@@ -49,20 +49,20 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: "/planet-06.png",
+    imgUrl: "https://blogs.vegamedia.in/images/take.jpg",
     title: "5 Tips to Improve Your Private Jet Chartering Agency",
     subtitle:
       "As a private jet charter business, you understand the importance of standing out in a competitive market. ",
    url :"https://blogs.vegamedia.in/post.html"
   },
   {
-    imgUrl: "/planet-07.png",
+    imgUrl: "https://blogs.vegamedia.in/images/luxury.jpg",
     title: "The Rise of Luxury Real Estate: Trends and Opportunities make it longer",
     subtitle:"The luxury real estate market has been experiencing a surge in demand, driven by various factors. In this blog post",
     url :"https://blogs.vegamedia.in/post2.html"
   },
   {
-    imgUrl: "/planet-08.png",
+    imgUrl: "https://blogs.vegamedia.in/images/winery.jpg",
     title: "Building a Thriving Winery: 5 Essential Tips for Success",
     subtitle:
       "Creating a successful winery requires careful planning, attention to detail, and a deep un..",
