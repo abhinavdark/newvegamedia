@@ -28,7 +28,7 @@ const Navbar = () => (
           className="w-[24px] h-[24px] object-contain"
         />
         <span className="font-normal text-[16px] text-white text-uppercase">
-              Book a Call
+          Book a Call
         </span>
       </button>
     </div>
