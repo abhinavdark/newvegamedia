@@ -28,7 +28,7 @@ export const exploreWorlds = [
 
 export const startingFeatures = [
   "Explore Worlds Perfectly Aligned with Your Vision",
-  "Enter your  digital  Journey ",
+  "Book a Meeting to Start Your Digital Journey ",
   "Soar to New Heights with Our Proven Strategies  ",
 ];
 
