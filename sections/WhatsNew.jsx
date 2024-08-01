@@ -34,8 +34,9 @@ const WhatsNew = () => (
         variants={planetVariants("right")}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
-          
+       <img
+          src="/whats-new.png"
+          alt="What's New"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
