@@ -53,7 +53,7 @@ export const insights = [
     title: "5 Tips to Improve Your Private Jet Chartering Agency",
     subtitle:
       "As a private jet charter business, you understand the importance of standing out in a competitive market. ",
-   url :"https://blogs.vegamedia.in/post.html"
+   url :"https://blogs.vegamedia.in/5-tips-to-improve-your-private-jet-chartering-agency.html"
   },
   {
     imgUrl: "https://blogs.vegamedia.in/images/luxury.jpg",
