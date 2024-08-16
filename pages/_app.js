@@ -81,6 +81,7 @@ const MyApp = ({ Component, pageProps }) => (
           `,
         }}
       />
+      <script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js"></script>
     </Head>
     <Component {...pageProps} />
   </>
