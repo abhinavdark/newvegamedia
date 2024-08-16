@@ -2,69 +2,71 @@ import Head from "next/head";
 import Script from "next/script"; // Importing Script from next/script
 import "../styles/globals.css";
 
-const MyApp = ({ Component, pageProps }) => (
-  <>
-    <Head>
-      <title>VegaMedia | Digital marketing.</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="icon" href="/favicon.ico" />
-      <meta charSet="UTF-8" />
-      <meta name="theme-color" content="#1A232E" />
-      <meta
-        name="description"
-        content="We are passionate about helping businesses thrive in the digital landscape. As a full-service digital marketing agency, we offer a wide range of services tailored to meet the unique needs of our clients."
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <>
+      <Head>
+        <title>VegaMedia | Digital marketing.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta charSet="UTF-8" />
+        <meta name="theme-color" content="#1A232E" />
+        <meta
+          name="description"
+          content="We are passionate about helping businesses thrive in the digital landscape. As a full-service digital marketing agency, we offer a wide range of services tailored to meet the unique needs of our clients."
+        />
+        <meta
+          name="keywords"
+          content="digital marketing, digital marketing agency, real estate luxury, jet charter marketing india, online advertising, SEO optimization, yacht networking mission, cruises, rentals, luxury packages, campaigns, vegamedia"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://vegamedia.online" />
+        <meta property="og:title" content="VegaMedia | Digital Marketing Services" />
+        <meta property="og:description" content="VegaMedia is a Digital Marketing Services Company" />
+        <meta property="og:image" content="/assets/images/logo/logo.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://Vegamedia.online" />
+        <meta property="twitter:title" content="VegaMedia | Digital Marketing Services" />
+        <meta property="twitter:description" content="VegaMedia is a Digital Marketing Services Company" />
+        <meta property="twitter:image" content="/assets/images/logo/logo.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/favicon/android-chrome-512x512.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/android-chrome-192x192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png" />
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico" />
+        <link rel="preconnect" href="https://stijndv.com" />
+        <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
+      </Head>
+
+      {/* Google Analytics script using next/script */}
+      <Script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
-      <meta
-        name="keywords"
-        content="digital marketing, digital marketing agency, real estate luxury, jet charter marketing india, online advertising, SEO optimization, yacht networking mission, cruises, rentals, luxury packages, campaigns, vegamedia"
+      <Script
+        id="google-analytics"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+          `,
+        }}
       />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://vegamedia.online" />
-      <meta property="og:title" content="VegaMedia | Digital Marketing Services" />
-      <meta property="og:description" content="VegaMedia is a Digital Marketing Services Company" />
-      <meta property="og:image" content="/assets/images/logo/logo.png" />
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://Vegamedia.online" />
-      <meta property="twitter:title" content="VegaMedia | Digital Marketing Services" />
-      <meta property="twitter:description" content="VegaMedia is a Digital Marketing Services Company" />
-      <meta property="twitter:image" content="/assets/images/logo/logo.png" />
-      <link rel="icon" type="image/png" sizes="512x512" href="/assets/images/favicon/android-chrome-512x512.png" />
-      <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicon/android-chrome-192x192.png" />
-      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png" />
-      <link rel="icon" type="image/x-icon" href="/assets/images/favicon/favicon.ico" />
-      <link rel="preconnect" href="https://stijndv.com" />
-      <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
-    </Head>
+      <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
 
-    {/* Google Analytics script using next/script */}
-    <Script
-      async
-      src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-    />
-    <Script
-      id="google-analytics"
-      dangerouslySetInnerHTML={{
-        __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
-        `,
-      }}
-    />
-    <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
+      {/* CookieFirst Cookie Table */}
+      <div id="cookiefirst-cookies-table"></div>
+      <div>
+        This cookie table has been created and updated by the
+        <a href="https://cookiefirst.com/cookie-banner/">CookieFirst - Cookie Banner Tool</a>.
+      </div>
 
-    {/* CookieFirst Cookie Table */}
-    <div id="cookiefirst-cookies-table"></div>
-    <div>
-      This cookie table has been created and updated by the 
-      <a href="https://cookiefirst.com/cookie-banner/">CookieFirst - Cookie Banner Tool</a>.
-    </div>
-
-    <Component {...pageProps} />
-  </>
-);
+      <Component {...pageProps} />
+    </>
+  );
+};
 
 export default MyApp;
