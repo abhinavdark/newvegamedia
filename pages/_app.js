@@ -51,53 +51,18 @@ const MyApp = ({ Component, pageProps }) => (
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+          gtag('consent', 'default', {
+            'ad_storage': 'granted',
+            'ad_user_data': 'granted',
+            'ad_personalization': 'granted',
+            'analytics_storage': 'granted',
+            'regions': [] // Add your ISO 3166-2 region codes here
+          });
         `,
       }}
     />
 
-<script>
-
-// Define dataLayer and the gtag function.
-
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
- 
-// Set default consent for specific regions according to your requirements
-
-gtag('consent', 'default', {
-
-  'ad_storage': 'granted',
-
-  'ad_user_data': 'granted',
-
-  'ad_personalization': 'granted',
-
-  'analytics_storage': 'granted',
-
- 'regions':[<list of ISO 3166-2 region codes>]
-
-});
-
-// Set default consent for all other regions according to your requirements
-
-gtag('consent', 'default', {
-
-  'ad_storage': 'granted',
-
-  'ad_user_data': 'granted',
-
-  'ad_personalization': 'granted',
-
-  'analytics_storage': 'granted'
-
-});
-
- 
-</script>
-
-  <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
+    <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
 
     <Component {...pageProps} />
   </>
