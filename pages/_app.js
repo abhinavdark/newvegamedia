@@ -6,7 +6,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>VegaMedia | Digital marketing</title>
+        <title>VegaMedia | Digital marketing.</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="UTF-8" />
@@ -56,13 +56,6 @@ const MyApp = ({ Component, pageProps }) => {
         }}
       />
       <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
-
-      {/* CookieFirst Cookie Table */}
-      <div id="cookiefirst-cookies-table"></div>
-      <div>
-        This cookie table has been created and updated by the
-        <a href="https://cookiefirst.com/cookie-banner/">CookieFirst - Cookie Banner Tool</a>.
-      </div>
 
       <Component {...pageProps} />
     </>
