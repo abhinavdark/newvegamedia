@@ -56,6 +56,13 @@ const MyApp = ({ Component, pageProps }) => (
     />
     <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
 
+    {/* CookieFirst Cookie Table */}
+    <div id="cookiefirst-cookies-table"></div>
+    <div>
+      This cookie table has been created and updated by the 
+      <a href="https://cookiefirst.com/cookie-banner/">CookieFirst - Cookie Banner Tool</a>.
+    </div>
+
     <Component {...pageProps} />
   </>
 );
