@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Script from "next/script"; // Importing Script from next/script
+import Script from "next/script"; 
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => (
@@ -38,34 +38,20 @@ const MyApp = ({ Component, pageProps }) => (
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
     </Head>
 
-    {/* Google Analytics script using next/script */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-72PC6FML97"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-72PC6FML97');
-</script>
+    {/* Google tag (gtag.js) */}
     <Script
       async
-      src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      src="https://www.googletagmanager.com/gtag/js?id=G-72PC6FML97"
     />
     <Script
       id="google-analytics"
+      strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
-          gtag('consent', 'default', {
-            'ad_storage': 'granted',
-            'ad_user_data': 'granted',
-            'ad_personalization': 'granted',
-            'analytics_storage': 'granted',
-            'regions': [] // Add your ISO 3166-2 region codes here
-          });
+          gtag('config', 'G-72PC6FML97');
         `,
       }}
     />
