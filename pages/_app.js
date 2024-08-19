@@ -39,19 +39,20 @@ const MyApp = ({ Component, pageProps }) => (
     </Head>
 
     {/* Google Analytics script using next/script */}
-    <Script
-      async
-      src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-    />
-    <Script
-      id="google-analytics"
-      dangerouslySetInnerHTML={{
-        __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
-        `,
+   {/* Google Analytics script */}
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-72PC6FML97');
+          `,
+        }}
       }}
     />
     <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
