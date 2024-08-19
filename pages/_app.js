@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Script from "next/script"; 
+import Script from "next/script"; // Importing Script from next/script
 import "../styles/globals.css";
 
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>VegaMedia | Digital marketing.</title>
+      <title>VegaMedia | Digital marketing</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
       <meta charSet="UTF-8" />
@@ -38,24 +38,22 @@ const MyApp = ({ Component, pageProps }) => (
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
     </Head>
 
-    {/* Google tag (gtag.js) */}
+    {/* Google Analytics script using next/script */}
     <Script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-72PC6FML97"
+      src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
     />
     <Script
       id="google-analytics"
-      strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-72PC6FML97');
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
         `,
       }}
     />
-
     <Script src="https://consent-eu.cookiefirst.com/sites/vegamedia.in-c8cbffa2-4e22-4c58-9083-dba83d296527/consent.js" />
 
     <Component {...pageProps} />
