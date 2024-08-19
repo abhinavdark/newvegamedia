@@ -6,7 +6,7 @@ const Head = () => (
     <meta name="theme-color" content="#1A232E" />
     <meta
       name="description"
-      content="The Next Generation Metaverse App using React JS"
+      content="Digital marketing"
     />
     <meta name="author" content="Vegamedia" />
     <link rel="icon" href="/favicon.ico" />
