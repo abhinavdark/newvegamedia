@@ -39,6 +39,14 @@ const MyApp = ({ Component, pageProps }) => (
     </Head>
 
     {/* Google Analytics script using next/script */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-72PC6FML97"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-72PC6FML97');
+</script>
     <Script
       async
       src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
